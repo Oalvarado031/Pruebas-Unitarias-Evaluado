@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class AreaTriangulo {
+    func calcularArea(base: Double, altura: Double) -> Double {
+        return base * altura / 2
+    }
+}

@@ -37,6 +37,17 @@
 			);
 			target = 7CB78C902CC1743200FD742E /* Pruebas Unitarias */;
 		};
+		7CB78CCC2CC1761000FD742E /* Exceptions for "Pruebas Unitarias" folder in "Pruebas UnitariasTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AreaTriangulo.swift,
+				ContarVocales.swift,
+				PotenciaNumero.swift,
+				ValidarPalindromo.swift,
+				VerificarPar.swift,
+			);
+			target = 7CB78CA62CC1743300FD742E /* Pruebas UnitariasTests */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +55,7 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				7CB78CB92CC1743300FD742E /* Exceptions for "Pruebas Unitarias" folder in "Pruebas Unitarias" target */,
+				7CB78CCC2CC1761000FD742E /* Exceptions for "Pruebas Unitarias" folder in "Pruebas UnitariasTests" target */,
 			);
 			path = "Pruebas Unitarias";
 			sourceTree = "<group>";
